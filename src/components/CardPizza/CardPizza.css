@@ -1,0 +1,51 @@
+.card-pizza {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.card-pizza__img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-pizza__body {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-pizza__name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.card-pizza__ingredients-label {
+  color: #999;
+  font-size: 0.85rem;
+  margin-bottom: 0.15rem;
+}
+
+.card-pizza__ingredients {
+  color: #666;
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-pizza__price {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-pizza__actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
