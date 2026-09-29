@@ -18,9 +18,11 @@ const CardPizza = ({ name, price, ingredients, img }) => {
         <h3 className="card-pizza__name">Pizza {name}</h3>
 
         <p className="card-pizza__ingredients-label">Ingredientes:</p>
-        <p className="card-pizza__ingredients">
-          🍕 {ingredients.join(", ")}
-        </p>
+          <ul className="card-pizza__ingredients">
+            {ingredients.map((ingredient, i) => (
+              <li key={i}>🍕 {ingredient}</li>
+            ))}
+          </ul>
 
         <p className="card-pizza__price">Precio: ${formatPrice(price)}</p>
 
