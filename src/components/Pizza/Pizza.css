@@ -1,0 +1,46 @@
+.pizza-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.pizza-detail__img {
+  width: 100%;
+  max-width: 380px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.pizza-detail__info {
+  flex: 1;
+  min-width: 260px;
+}
+
+.pizza-detail__name {
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.pizza-detail__desc {
+  color: #555;
+}
+
+.pizza-detail__ingredients {
+  list-style: none;
+  padding: 0;
+  color: #666;
+}
+
+.pizza-detail__price {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.pizza-message {
+  text-align: center;
+  padding: 3rem 1rem;
+}
