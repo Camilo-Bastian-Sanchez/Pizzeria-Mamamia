@@ -1,0 +1,15 @@
+.profile {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.profile__title {
+  margin-bottom: 1.5rem;
+}
+
+.profile__email {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
